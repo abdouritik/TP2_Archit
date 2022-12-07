@@ -1,5 +1,7 @@
 
+
 public class DBConnectionSegleton {
+
 	private static DBConnectionSegleton instance = new DBConnectionSegleton();
 	
 	private DBConnectionSegleton() {
@@ -10,6 +12,4 @@ public class DBConnectionSegleton {
 		return instance;
 	}
 	
-	
-
 }

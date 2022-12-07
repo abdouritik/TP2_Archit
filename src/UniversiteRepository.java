@@ -1,14 +1,17 @@
 
+
+
+
 import java.sql.Connection;
-import java.sql.DriverManager;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class UniversiteRepository {
+public class UniversiteRepository implements Universite{
 	
 	
-	Universite GetById(int universityId) throws SQLException {
+	public Universite GetById(int universityId) throws SQLException {
 		
 		DBConnection BD= new DBConnection();
 		Connection connect=BD.getConn(); 
@@ -27,6 +30,18 @@ public class UniversiteRepository {
 		return u;	
 	
 		
+	}
+
+	@Override
+	public TypePackage getPack() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getI_univ() {
+		// TODO Auto-generated method stub
+		return 0;
 	}	
 	
 }

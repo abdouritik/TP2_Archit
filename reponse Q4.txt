@@ -1,0 +1,9 @@
+---Application de principe d'inversion par:
+
+1 la classe Etudiant devient une interface Etudiant 
+2 la classe Uviversite devient une interface universite
+3 les classes EtudiantService et Etudaint Repository hérite de l'interface Etudiant
+4 la classe UniversiteRepostory hérite de l' interface Univeriste
+
+---L'objet de cette amélioration sont
+ réduiser le besion de changement sur les sites d'appels
