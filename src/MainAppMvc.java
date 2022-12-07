@@ -10,6 +10,8 @@ public class MainAppMvc {
 		String message = "Le TP2 d'architecture logicielle";
 		E.Afficher_tout();
 		
+		
+		
 		//Appler la fonction inscription
 		E.Inscription();
 		
