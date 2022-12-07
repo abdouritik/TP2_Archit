@@ -1,5 +1,7 @@
 import javax.swing.JTextField;
 
+
+
 public class ControleurInscription extends ViewInscription{
 
 
