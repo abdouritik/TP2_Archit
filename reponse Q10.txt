@@ -1,0 +1,29 @@
+----Analyse des responsabilités dans la classe Etudiant service
+
+1 La responsabilité unique:
+
+- La classe ne contient pas des attributs public mais tous les mathodes sont public 
+- Les méthodes n'utilisent pas des différents attributs
+- Les taches spécifiques sont réaliser par des méthodes public 
+   donc la présence de la responsabiliyé unique.
+
+
+2  Ouvert/Fermé:
+
+- Les conditions ne détermine aucune stratégie
+- Les conditions n'utilisent pas les memes variables.
+- Tl n'existe pas d'autres classes concretes.
+- Il y a des attribut qui contient la visibilité protected et non pas les méthodes
+   Donc la présence de laa responsabilité Ouvert/Fermé
+  
+3 Le principe de substitutui de Liskov: 
+   L'absence complète de principde de substitui de Liskov
+
+4 La ségrégation des interfaces:
+Les classes ne dépend pas d'interface qui'il n'utilise utilise réellement
+  donc la présence de ce principe
+
+
+5 Les principe d'inversion de dépandance :
+EtdiantService hérite de la classe mère 
+   Donc la présence de ce principe
